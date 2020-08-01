@@ -1,0 +1,22 @@
+{
+  "name": "@schirrel/api-request",
+  "version": "1.0.0",
+  "description": "Vanilla JS api service request structure using Fetch Api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schirrel/APIRequest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schirrel/APIRequest/issues"
+  },
+  "homepage": "https://github.com/schirrel/APIRequest#readme",
+  "dependencies": {
+    "@schirrel/request": "^1.2.0"
+  }
+}
