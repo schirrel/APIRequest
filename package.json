@@ -1,10 +1,12 @@
 {
   "name": "@schirrel/api-request",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanilla JS api service request structure using Fetch Api ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/schirrel/APIRequest#readme",
   "dependencies": {
     "@schirrel/request": "^1.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
