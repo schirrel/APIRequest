@@ -1,6 +1,6 @@
 {
   "name": "@schirrel/api-request",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vanilla JS api service request structure using Fetch Api ",
   "main": "index.js",
   "scripts": {
