@@ -1,12 +1,12 @@
 {
   "name": "@schirrel/api-request",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vanilla JS api service request structure using Fetch Api ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --progress"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,13 @@
     "@schirrel/request": "^1.2.0"
   },
   "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.10"
   }
 }

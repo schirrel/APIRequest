@@ -1,3 +1,2 @@
 import ApiRequest from "./ApiRequest.js";
-
-export default ApiRequest;
+ export default ApiRequest;
