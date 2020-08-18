@@ -1,5 +1,4 @@
 # api-request
 Vanilla JS api service request structure using Fetch Api
 
-[X] - Observable 
-[ ] - Interceptor
+Wrapper of requests  to api like Angular Resouce but only plain JS
